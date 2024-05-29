@@ -1,4 +1,4 @@
-# data402_bigdata_cloud
+# Cloud Computing
 
 
 ## What is Cloud Computing?
@@ -171,13 +171,15 @@ Understanding and effectively managing these aspects allows businesses to fully 
 
 <br><br><br>
 
+## Case Studies
 
- ```
-Research:
- 
- 
-If time...
- 
-Find up to 3 case studies showing how businesses have migrated to the cloud or used the cloud to improve in some way
- ```
+### Betabrand <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXnfqhOwgK5KoKQuayyEb3zehMlWA7wWxUJA&s" width="30">
+Betabrand is a crowd-funded, crowd-sourced retail clothing e-commerce company. They migrated from a bare metal infrastructure to the cloud due to maintenance difficulties and lack of scalability. The migration process was smooth and simple, and they were able to quickly create a replica of their production services for load testing12. The scalability of the cloud infrastructure helped them avoid downtime and keep customers satisfied <br>
+
+### Spotify <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNaTV_VD20fcjJ6KVMVDsK097njrbIkBZGpQ&s" width="30">
+Spotify, a media services provider primarily focused on its audio-streaming platform, migrated from in-house data centers to the Google Cloud Platform (GCP). The company’s leadership and engineering team agreed that their massive in-house data centers were difficult to provision and maintain, and they didn’t directly serve the company’s goal of being the "best music service in the world". They wanted to free up Spotify’s engineers to focus on innovation. <br>
+
+### American Airlines <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjSgcLVzYw6FHNHA86TE888vOzBnkPrA5gVg&s" width="30">
+American Airlines worked with IBM to migrate some of its critical applications to the IBM Cloud3. This move was part of a new methodology to create innovative applications quickly and improve the customer experience3.
+
 
