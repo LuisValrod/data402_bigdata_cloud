@@ -33,34 +33,151 @@ If you're accessing data or software through the internet from a remote server i
   - Control: Less control over the underlying hardware and infrastructure.
   - Cost: Lower initial CapEx; ongoing OpEx based on usage.
   - Scalability: Highly scalable with on-demand resources.
-
-In that repo, make in an appropriate section for cloud (or similar) + a README.md
-
-Ask ChatGPT (Or Gemini etc.) to explain to you:
  
+<br>
+
+**Summary**<br>
+ Traditional on-premise IT involves having your own physical servers and hardware on-site. On the other hand, the cloud offers a more flexible and scalable alternative, where resources are provided by a cloud service provider.
+
+## The 4 deployment models of cloud: private vs public vs hybrid vs multi-cloud
+
+1. Private Cloud:
+- Definition: Cloud infrastructure operated solely for a single organization.
+- Control: High, as the infrastructure can be hosted internally or externally but is dedicated to one organization.
+- Use Case: Industries with strict security and compliance requirements, like finance and healthcare.
+
+2. Public Cloud:
+- Definition: Cloud infrastructure offered to the general public or a large industry group and owned by a cloud service provider.
+- Control: Lower, with shared resources among multiple organizations.
+- Use Case: General use, web-based applications, startups, and small to medium businesses.- 
+
+3. Hybrid Cloud:  
+- Definition: A combination of private and public cloud services that allows data and applications to be shared between them.
+- Control: Moderate, combining the benefits of both private and public clouds.
+- Use Case: Businesses needing flexibility, scalability, and cost-efficiency while maintaining some control over sensitive data.
+  
+4. Multi-Cloud:
+- Definition: The use of multiple cloud services from different providers.
+- Control: Complex management across multiple platforms.
+- Use Case: Organizations aiming to avoid vendor lock-in, improve redundancy, and leverage the strengths of different providers.
+
+## Types of cloud services: IaaS, PaaS, SaaS
+1. Infrastructure as a Service (IaaS):
+- Definition: Provides virtualized computing resources over the internet. Provides the building blocks like virtual machines (VMs) and storage. You have control over the operating system and configurations.
+- Examples: Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP).
+- Use Case: Businesses needing scalable and flexible computing power.<br>
+
+2.Platform as a Service (PaaS):
+- Definition: Provides a platform allowing customers to develop, run, and manage applications without dealing with the underlying infrastructure. Offers a platform for developing, deploying, and managing applicationsThink pre-configured servers with development tools.
+- Examples: Google App Engine, Microsoft Azure App Services, AWS Elastic Beanstalk.
+- Use Case: Developers building and deploying applications efficiently.<br>
+
+3.Software as a Service (SaaS):
+- Definition: Delivers software applications over the internet on a subscription basis. Delivers ready-made applications accessible over the internet.
+- Examples: Salesforce, Google Workspace, Microsoft 365, Gmail.
+- Use Case: End-users requiring ready-to-use applications without handling software maintenance.
+
+<br>
+
+## Advantages/Disadvantages of the Cloud for Businesses
+- Advantages:
+
+  - Cost Efficiency: Reduced CapEx, lower maintenance costs, and pay-as-you-go pricing.
+  - Scalability: Easily scalable resources to match demand.
+  - Accessibility: Access from anywhere with an internet connection.
+  - Disaster Recovery: Enhanced backup and recovery options.
+    
+-Disadvantages:
+
+  - Security and Privacy: Potential concerns over data security and privacy.
+  - Downtime: Dependence on internet connectivity and potential provider outages.
+  - Limited Control: Less control over infrastructure and performance.
+  - Compliance: Challenges in meeting regulatory requirements.
+
+**Summary**<br>
+Whereas the cloudh can have several advantages for businesses like scalability, Cost-efficiency (pay-as-you-go), Improved disaster recovery, Increased collaboration, Automatic updates; it can also have few disadvantages like Security concerns, Vendor lock-in, Potential performance issues, Reliance on internet connectivity. 
+
+## Difference between OpEx vs CapEx and how it relates the cloud
+- **Capital Expenditure (CapEx)**: Large, upfront investments in physical assets, such as servers and data centers.
+- **Operational Expenditure (OpEx)**: Ongoing costs for services, like cloud subscriptions and maintenance.
+In cloud computing, businesses shift from a CapEx model (buying and maintaining hardware) to an OpEx model (paying for services as needed), which can improve cash flow and reduce financial risk.
+
+**Summary**<br>
+OpEx (Operational Expenditure) is the ongoing cost of using a service, while CapEx (Capital Expenditure) is the upfront cost of buying something. Cloud services typically follow an OpEx model, reducing upfront costs for businesses.
+
+## Is Migrating to the Cloud Always Cheaper?
+Not necessarily. While cloud computing can reduce certain costs, the total cost depends on various factors such as:
+
+- Current infrastructure and how it's utilized.
+- Specific cloud service requirements and usage patterns.
+- Long-term subscription costs versus upfront hardware investment.
+- Potential hidden costs such as data transfer fees, storage, and additional services.
+
+## Market Share Breakdown
+As of the latest data, the major players in the cloud market are:
+
+- Amazon Web Services (AWS): Approximately 31%.
+- Microsoft Azure: Approximately 25%.
+- Google Cloud Platform (GCP): Approximately 11%.
+<br>
+Together, these “Big Three” account for two-thirds of the ever-growing cloud market, with the rest of the competition stuck in the low single digits1. In Q1 2024, global cloud infrastructure service spending grew $13.5 billion or 21 percent compared to the first quarter of 2023, bringing total spending to over $76 billion for the three months ended March 31
+
+## The 3 Largest Cloud Providers
+- **Amazon Web Services (AWS):**
+  - Known For: Extensive range of services, mature and robust ecosystem.
+  - USP: Leading market share, vast global infrastructure, wide array of tools and services.<br>
+  
+-**Microsoft Azure**:
+  - Known For: Strong integration with Microsoft products.
+  - USP: Enterprise-friendly, hybrid cloud capabilities, comprehensive AI and machine learning services.<br>
+
+-**Google Cloud Platform (GCP):**
+
+  - Known For: Expertise in data analytics and machine learning.
+  - USP: Superior data processing and analytics capabilities, competitive pricing.
+
+## Which cloud provider might be the best?
+The best provider depends on specific business needs:
+
+- AWS: Best for a wide variety of services and global reach.
+- Azure: Ideal for enterprises leveraging Microsoft products.
+- GCP: Best for businesses focusing on big data and machine learning.
+
+**Choosing a cloud provider depends on your specific needs.** <br>onsider factors like pricing, services offered, security, and ease of use.
+
+## Costs Associated with Using the Cloud
+Businesses typically pay for:
+
+- Compute instances (virtual machines).
+- Storage (block, object, and file storage).
+- Data transfer (bandwidth usage).
+- Managed services (databases, machine learning, analytics).
+- Licensing for specific software or applications.
+
+## Data Management in the Cloud
+
+- Storage: Data is stored in cloud storage systems with options for block, object, and file storage.
+- Security: Implementing encryption, access controls, and compliance measures.
+- Analytics: Utilizing cloud-based tools for data analysis and insights.
+- Backup and Recovery: Ensuring data redundancy and disaster recovery plans.
+
+### Data professionals need to know:
+
+- How to leverage cloud-native data management and analytics tools.
+- Best practices for data security and compliance.
+- Cost management strategies to optimize cloud spending.
+- 
+Understanding and effectively managing these aspects allows businesses to fully leverage cloud technologies for better performance, scalability, and innovation.
+
+<br><br><br>
+
+
+ ```
 Research:
  
-
-
-
-The 4 deployment models of cloud: private vs public vs hybrid vs multi-cloud - Differences?
-How do they work?
-Types of cloud services: IaaS, PaaS, SaaS - What are differences?
-What are the advantages/disadvantages of the cloud? (Particularly for a business)
-Difference between OpEx vs CapEx and how it relates the cloud
-Is migrating to the cloud always cheaper?
-Marketshare - What is the breakdown? Add a diagram to help understand marketshare trends
-What are the 3 largest Cloud providers known for (What makes them popular? Any USPs?)
-Which cloud provider do you think might be the best? Why?
-What sorts of things do you usually need to pay for when using the cloud?
-How is data used/managed in the cloud? What do data professionals need to know to leverage cloud technologies effectively?
  
 If time...
  
 Find up to 3 case studies showing how businesses have migrated to the cloud or used the cloud to improve in some way
- 
-In the README.md, add + personalise the content with your own comments, "take-aways", things you've learnt. Supplement the content with extra research where you feel your understanding is weaker.
- 
-Understand the content so you are ready to be asked interview questions on the topic
- 
-We may allocate more time for this after lunch. No need to post links yet.
+ ```
+
